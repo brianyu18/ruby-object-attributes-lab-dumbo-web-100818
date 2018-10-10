@@ -4,5 +4,24 @@ class Dog
     @breed = breed
   end
   
-  def name(get_name)
+  def name()
     @name 
+  end
+  
+  def breed()
+    @breed
+  end
+  
+  def name=(name)
+    @name = name
+  end
+  
+  def breed=(breed)
+    @breed = breed
+end
+
+# d1 = Dog.new("dpg","dog")
+
+# d1.name = "kevin"
+
+# p d1.name
