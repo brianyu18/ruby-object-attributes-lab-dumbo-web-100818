@@ -18,6 +18,7 @@ class Dog
   
   def breed=(breed)
     @breed = breed
+  end
 end
 
 # d1 = Dog.new("dpg","dog")
